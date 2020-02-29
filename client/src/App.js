@@ -5,6 +5,7 @@ import {Provider} from 'react-redux';
 import store from './store';
 import ItemModal from './components/ItemModal';
 import {Container} from 'reactstrap';
+import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
